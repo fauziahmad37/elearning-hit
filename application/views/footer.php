@@ -3,8 +3,8 @@
 		<footer class="site-footer section-padding">
             <div class="container">
                 <div class="row">
-
-                    
+					<p class="fs-16 mb-0">Dipersembahkan oleh</p>
+                    <p style="font-size: 30px; color: green; font-weight: bold;">WoowEdu</p>
                 </div>
             </div>
         </footer>
