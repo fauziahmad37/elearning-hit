@@ -68,7 +68,7 @@ https://templatemo.com/tm-590-topic-listing
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="section_2">Sesi</a>
+                                <a class="nav-link" href="sesi">Sesi</a>
                             </li>
     
                             <li class="nav-item">
