@@ -47,6 +47,28 @@
       var timeline = $('#vertical-scrollable-timeline li');
       Array.from(timeline).forEach(isScrollIntoView);
     });
+
+		$('.person-lg').on('click', function(){
+			let profile = $('.profile-container.lg');
+			if(profile.hasClass('d-block')){
+				profile.addClass('d-none');
+				profile.removeClass('d-block');
+			}else{
+				profile.addClass('d-block');
+				profile.removeClass('d-none')
+			}
+		});
+
+		$('.person-sm').on('click', function(){
+			let profile = $('.profile-container.sm');
+			if(profile.hasClass('d-block')){
+				profile.addClass('d-none');
+				profile.removeClass('d-block');
+			}else{
+				profile.addClass('d-block');
+				profile.removeClass('d-none')
+			}
+		});
   
   })(window.jQuery);
 
