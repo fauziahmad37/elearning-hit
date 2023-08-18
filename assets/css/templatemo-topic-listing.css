@@ -1067,6 +1067,11 @@ blockquote {
     font-size: 18px;
   }
 
+	.explore-section.section-padding{
+		padding-top: 110px;
+    padding-bottom: 50px;
+	}
+
   .section-padding {
     padding-top: 50px;
     padding-bottom: 50px;
