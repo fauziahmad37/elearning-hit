@@ -23,4 +23,6 @@
     margin: 0;
     font-weight: 600;
 }
-.font-weight-bold { font-weight: 700!important; }
+.sesi-class{ font-weight: bold; padding: 10px;cursor: pointer; } 
+.sesi-class.active{ border-bottom: 3px solid green; color: green; }
+
