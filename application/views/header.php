@@ -16,7 +16,7 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
                         
-        <link href="<?=base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet">
+        <link href="<?=base_url('assets/css/bootstrap.css')?>" rel="stylesheet">
 
         <link href="<?=base_url('assets/css/bootstrap-icons.css')?>" rel="stylesheet">
         <link href="<?=base_url('assets/css/custom.css')?>" rel="stylesheet">
@@ -51,7 +51,7 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="d-lg-none ms-auto me-4">
                         <a href="#top" class="navbar-icon bi-person smoothscroll person-sm"></a>
 						<div class="profile-container p-3 sm">
-							<p><i class="bi-person fa-user"></i> Profile</p>
+							<p><a href="<?=base_url()?>user"><i class="bi-person fa-user"></i> Profile</a></p>
 							<p><i class="bi-gear-fill"></i> Setting</p>
 							<p class="text-red"><i class="bi-box-arrow-left"></i> Logout</p>
 						</div>
@@ -93,7 +93,7 @@ https://templatemo.com/tm-590-topic-listing
                         <div class="d-none d-lg-block">
                             <a href="#top" class="navbar-icon bi-person smoothscroll person-lg"></a>
 							<div class="profile-container p-3 lg">
-								<p><i class="bi-person fa-user"></i> Profile</p>
+								<p><a href="<?=base_url()?>user"><i class="bi-person fa-user"></i> Profile</a></p>
 								<p><i class="bi-gear-fill"></i> Setting</p>
 								<p class="text-red"><i class="bi-box-arrow-left"></i> Logout</p>
 							</div>

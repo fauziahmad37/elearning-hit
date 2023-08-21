@@ -75,11 +75,13 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'mysqli',
+	// 'hostname' => '192.168.1.150',
+	'hostname' => 'pgsql:host=192.168.1.150;port=65432;dbname=woowedu',
+	'username' => 'postgres',
+	'password' => 'postgroow',
+	'database' => 'woowedu',
+	// 'dbdriver' => 'mysqli',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

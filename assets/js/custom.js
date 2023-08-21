@@ -22,9 +22,9 @@
         var offsetTop = offset.top;
         var totalScroll = offsetTop-navheight;
   
-        $('body,html').animate({
-        scrollTop: totalScroll
-        }, 300);
+        // $('body,html').animate({
+        // scrollTop: totalScroll
+        // }, 300);
       }
     });
 
